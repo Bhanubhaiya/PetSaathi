@@ -1,0 +1,88 @@
+.gradient-background {
+  background: linear-gradient(300deg, #ff9a9e, #fad0c4, #fbc2eb, #a18cd1);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+
+@keyframes gradient-animation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.success-story-section {
+  background: linear-gradient(300deg, #ffffff);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  padding: 60px 20px;
+  text-align: center ;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #ff4c68;
+  margin-bottom: 40px;
+}
+
+.story-card {
+  background: #ffffff;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 30px 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  display: auto; /* Ensures vertical layout */
+}
+
+.couple-name {
+  color: #333;
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+}
+
+.story-text {
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.story-author {
+  color: #888;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.story-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  justify-items: center;
+  padding: 0 20px;
+}
+
+.donut-pic{
+  height: 100px;
+  border-radius: 50%;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+  
+}
